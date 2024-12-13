@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="./Assets/favicon.png">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="./styelSheet.css">
+  </head>
+  <body>
+    <div class="first_background"></div>
+    <section class="navgation">
+      <header class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <div class="logo">
+            <img src="./Assets/logo.png" alt="Logo">
+          </div>
+          <!-- Translate Dropdown -->
+          <div class="navButton">
+            <div class="translate navButton">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" role="img" viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z" fill="currentColor"></path>
+              </svg>
+              <select id="language-select">
+                <option value="en">English</option>
+                <option value="hi">हिन्दी</option>
+              </select>
+            </div>
+            <!-- Sign In Button -->
+            <div class="signin navButton">
+              <button class="signin-btn">Sign In</button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+    <section class="welcome">
+      <div class="banner">
+        <h1>Unlimited movies, Tv <br> shows and more. </h1>
+        <p>Starts at ₹ 149. Cancel at any time</p>
+        <div id="bottom"></div>
+        <button class="arrow left" aria-label="Previous">&#8249;</button>
+        <button class="arrow right" aria-label="Next">&#8250;</button>
+      </div>
+      <div class="carousel-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M5 2.691C5 1.931 5.815 1.449 6.482 1.815L23.407 11.124C24.098 11.504 24.098 12.496 23.407 12.876L6.482 22.185C5.815 22.552 5 22.07 5 21.309V2.691Z"></path>
+        </svg>
+        <svg width="90px" height="5" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="90px" height="5" fill="currentColor" rx="5" ry="5" />
+        </svg>
+        <svg width="90px" height="5" xmlns="http://www.w3.org/2000/svg" opacity="0.5">
+          <rect x="0" y="0" width="90px" height="5" fill="white" rx="5" ry="5" />
+        </svg>
+        <svg width="90px" height="5" xmlns="http://www.w3.org/2000/svg" opacity="0.5">
+          <rect x="0" y="0" width="90px" height="5" fill="white" rx="5" ry="5" />
+        </svg>
+      </div>
+      <section class='membership'>
+        <div class="signInComment">Ready to watch? Enter your email to create or restart your membership.</div>
+        <form action="#" class="email-signup">
+          <input type="email" placeholder="Email address" required>
+          <button type="submit">Get Started <div aria-hidden="true" class="emailSignUpArrow">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 24 24" width="24" height="24" data-icon="ChevronRightStandard" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </button>
+        </form>
+        </div>
+      </section>
+      <section class='Trending_Now'>
+        <div class="moviesList">
+          <div class="trendingWrapper">
+            <h2 class=" sectionTitle">Trending Now</h2>
+          </div>
+          <div class="inline-section">
+          <div class="moviesContainer">
+            <ul class="moviesGrid">
+              <li class="movieItem">
+                <button class="movieButton">
+                  <div class="singleMovieCard">
+                    <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTDVDAaF8irUSwjeVkDpRR6dsVfiDVtp0GmxTq2OHuVPO6xTtVXZCYb3PUWImTW5_lhb4RzLyRo_gCNAGVBeBHBu9KFQGcP6BLthQArNiEtPu4BQB14k710nTLaATi3IS35pug.webp?r=04a)" class="movieCard"></span>Yeh Kaali Kaali Ankhein
+                  </div>
+                </button>
+              </li>
+              <li class="movieItem">
+                <button class="movieButton">
+                  <div class=" singleMovieCard">
+                    <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZ-bq_lsBGWgy0rIX25IlAqntiijoDhtDRYJjIE_3QYM9MhgXfiW249P_xyK_zDK26aca6MHpzoouUn6dVxsjX4mtIkADCLS2QWAoR5TEkkjAMBHnghbEJckPJoC-VKW5z75yw.webp?r=b62)" class="movieCard"></span>The Great Indian Kapil Show
+                  </div>
+                </button>
+              </li>
+              <li class="movieItem">
+                <button class="movieButton">
+                  <div class=" singleMovieCard">
+                    <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcOKVyDpoMqPMP8MRuASK8X0SenR-HIJphcwID5xC0PuCdn3p618nTL6h1n78t_ZpIA1aICPE6_D6_9nRHPnvAJUNf3aPy-W5hxfvjJpkqTovjtMJbt-2PSq0JjxnS9pS5xPJQ.webp?r=cf5)" class="movieCard"></span>Do Patti
+                  </div>
+                </button>
+              </li>
+              <li class="movieItem">
+                <button class="movieButton">
+                  <div class=" singleMovieCard">
+                    <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSJTwCRepT3hij8CAbXVf-kGcmJ1rIVtD7wT2AmGY4nhIP6GyADv7jWfWR1B1MwfeAu3RuNdlyQNmYx50sACOm24YSD_biqKtHhJ.webp?r=680)" class="movieCard"></span>Devara
+                  </div>
+                </button>
+              </li>
+              <li class="movieItem">
+                <button class="movieButton">
+                  <div class=" singleMovieCard">
+                    <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWufSYoSh-ruSGRpzD_7k6m6nRPshhSVJsXf4vbq85zHVXCcIoAkKQZar1cVG79qU-aRQsBBdw37WOofOVDuLolhtQMGb6kklOlk.webp?r=f45)" class="movieCard"></span>Meiyazhagan
+                  </div>
+                </button>
+              </li>
+              <li class="movieItem">
+                <button class="movieButton">
+                  <div class=" singleMovieCard">
+                    <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZsOR8kKO5yZ6u3uTrB2c-dCUtBrlbIQPxnufqB02CjoKVRO6B5rd1hkGKFmlpI49KXypCl-brJaecSBCflRkdcYr89yFjc3MCWJD0PikZAQs2yb4z1q_2sV0tS5vbwa97Ezqg.webp?r=9bf)" class="movieCard"></span>Nayanthara: Beyond the Fairy Tale
+                  </div>
+                </button>
+              </li>
+              <li class="movieItem">
+                <button class="movieButton">
+                  <div class=" singleMovieCard">
+                    <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABV13Tub85_uTNQNf6fN3SYm8kNLYz8OyyS6mDAlAza9C-ftN7Y9qAMp8Fbb1oeYamN3Dn37QuOdBqrKTwD5dAuuEMJpHRm2vZeHz.webp?r=4e6)" class="movieCard"></span>GOAT - The Greatest of All Time
+                  </div>
+                </button>
+              </li>
+              <li class="movieItem">
+                <button class="movieButton">
+                  <div class=" singleMovieCard">
+                    <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWBTfB0aEVLi7UC15VAgn-32DHcvXrDvBOIwOfWV1h96x-ilc41Cn4VRCrXFh6Odl0WvXJtUXnKfwmb_2mm3N9J9P54komhTFu7JXJGt0UC2jek-pdds9tRDqjG2j9hO7mxgEw.webp?r=830)" class="movieCard"></span>Jake Paul vs. Mike Tyson
+                  </div>
+                </button>
+              </li>
+              <li class="movieItem">
+                <button class="movieButton">
+                  <div class=" singleMovieCard">
+                    <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdgTaBYCIB0eUZCFao0FYJoVkDyIb3sB6kOeRP1VfyY5eroA4xyfl2ajD0Lrn2Ury49eGUlr_86M3kHkjGEYCIKfB8j-ZqVfFmbV.webp?r=17c)" class="movieCard"></span>Khel Khel Mein
+                  </div>
+                </button>
+              </li>
+          </div>
+          <div class="arrowMark">
+            <button aria-label="Next" class="arrowHead">
+              <?xml version="1.0" encoding="iso-8859-1"?>
+              <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+              <svg fill="currentColor" height="80%" width="80%" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                C255,161.018,253.42,157.202,250.606,154.389z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="Only_On_netflix">
+        <div class="moviesList">
+          <div class="trendingWrapper">
+            <h2 class=" sectionTitle">Only on Netflix</h2>
+          </div>
+          <div class="inline-section">
+            <div class="moviesContainer">
+              <ul class="moviesGrid">
+                <li class="movieItem">
+                  <button class="movieButton">
+                    <div class="singleMovieCard">
+                      <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRY13rE6hFZeP981fDAgmKTcN4P0SzIOzCS8PMVNcm1A41O8G1dqia0SGeBUzBvFiH3JX_ugRAq5nbRkhsb4FpQy6PLwZyRw5cTO7EjbrO8YX7-Pk2joGpoaBQYi6RwFo4p11Q.webp?r=3f5)" class="movieCard"></span>Money Heist
+                    </div>
+                  </button>
+                </li>
+                <li class="movieItem">
+                  <button class="movieButton">
+                    <div class=" singleMovieCard">
+                      <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABW-d7ZXaidP5ykOiy-MSmgy-yVF1C4_68_poOkx-ZU04wLVevpoqkf3uEvHCsGZY_XipOSlNASQ0TfqWvjspCLE5-2AIVHHQY29oJC62Yd8PhSLBaZqzreyhaAmAM6Z7YQBBMg.webp?r=e79)" class="movieCard"></span>Stranger Things
+                    </div>
+                  </button>
+                </li>
+                <li class="movieItem">
+                  <button class="movieButton">
+                    <div class=" singleMovieCard">
+                      <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABROJMgHuT0kF6UHU-1PgR5T6_MyUWbqAN8a70TMKBaTV6TDEif7AKv6BARn67_U4ZlVx31vWny9ljXaa74-HLXs3UD35gcXbnUcT56Bk9uqrh9jsBYaP-FGfSV8COqgJIyrNEg.webp?r=112)" class="movieCard"></span>Lucifer
+                    </div>
+                  </button>
+                </li>
+                <li class="movieItem">
+                  <button class="movieButton">
+                    <div class=" singleMovieCard">
+                      <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdbKfm_grERo569cMP2buiT-mBuh9jLLONiiVaYHGR6E6BeZyBjRUdPEDvy8j8ZcPU_yVwBM6pL1tNBFDyjoR93O6yfBk0pUGn8swBrdsmbLVKM3SfA6q_onC0QRpTVvFsDa3Q.webp?r=e73)" class="movieCard"></span>Tribhuvan Mishra CA Topper
+                    </div>
+                  </button>
+                </li>
+                <li class="movieItem">
+                  <button class="movieButton">
+                    <div class=" singleMovieCard">
+                      <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcBfQ5g7suBqQ1OfrnFBRfK_3cXnGqyVcpAOUM28hHX0mWh8kzzP0kCmrNZFszZ-GukuXVJiK8tGbw6f5AM4zaYYXYvmRk6hXQZrXxswq7c18th-3TvNDTSkG3_EKi-yaZWfQg.webp?r=a0c)" class="movieCard"></span>Heeramandi: The Diamond Bazaar
+                    </div>
+                  </button>
+                </li>
+                <li class="movieItem">
+                  <button class="movieButton">
+                    <div class=" singleMovieCard">
+                      <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABT3mYMgjE3-02zLGOzNVq0bMKftmnuK3dN3uIcmxQosihlsta4ZVfkBdiNeHABPECoer7HGSR0pi4W0JbBgLGAxjoJMT8qp3VWvwCYBVV29xufw7DM__Cm0VMDJwP7TngxahVw.webp?r=c37)" class="movieCard"></span>The Lincoln Lawyer
+                    </div>
+                  </button>
+                </li>
+                <li class="movieItem">
+                  <button class="movieButton">
+                    <div class=" singleMovieCard">
+                      <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcthhZIohsu0feEvCd4hCmcRUJ7wP3fSN1eBFLvYLO1E56hGa9dTJus3OZ8lyDSQxvaQNRgPWdZl58_S2BFIvPOEdJgKfhDatMWH8zOJRFTaukJ5FJRa1HutRInOIPCr6wsjLg.webp?r=e07)" class="movieCard"></span>IC 814: The Kandahar Hijack
+                    </div>
+                  </button>
+                </li>
+                <li class="movieItem">
+                  <button class="movieButton">
+                    <div class=" singleMovieCard">
+                      <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABb7p5K_t-koXZN9V79tpIs32_-9bR225Swc9sj2vfPgtyydnbQwgoG8A_DNSqrQSJ5xwT1EFpQLMFw6fhESHiZik6OSClQYhgPi-eSCFTs-EK9lVG2HJpWZY2SPYKhC80b7KWQ.webp?r=5c7)" class="movieCard"></span>Cobra Kai
+                    </div>
+                  </button>
+                </li>
+                <li class="movieItem">
+                  <button class="movieButton">
+                    <div class=" singleMovieCard">
+                      <span style="background-image:url(https://occ-0-4994-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQ26mhDTxFE58n5Cwgwe_ReId62_vwDTsFu8zNv9aO1OW6SWAbCeGIN_th8eHMv2sdDSY1rk6STdF7r2GGLshF5ID25njhBE0IeNcasFwPxHlF33NAPTXgZOCOX_NhMUGbXnBg.webp?r=c7b)" class="movieCard"></span>Queen of Tears
+                    </div>
+                  </button>
+                </li>
+            </div>
+            <div class="arrowMark">
+              <button aria-label="Next" class="arrowHead">
+                <?xml version="1.0" encoding="iso-8859-1"?>
+                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg fill="currentColor" height="80%" width="80%" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
+                  <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                  C255,161.018,253.42,157.202,250.606,154.389z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="more_resons_to_join">
+        <div class="moreResons">
+          <h1>More resons to join</h1>
+          <div class="moreBlocks">
+            <div class="resonsBlock">
+              <div class="resonText">Stories tailored to your taste</div>
+              <img class="moreImage" src="./Assets/more1.PNG" alt="">
+            </div>
+            <div class="resonsBlock">
+              <div class="resonText">Cancel or switch plans anytime</div>
+              <img class="moreImage" src="./Assets/more2.PNG" alt="">
+            </div>
+            <div class="resonsBlock">
+              <div class="resonText">A place just for kids</div>
+              <img class="moreImage" src="./Assets/more3.PNG" alt="">
+            </div>
+            <div class="resonsBlock">
+              <div class="resonText">For your phone, tablet, laptop and TV</div>
+              <img class="moreImage" src="./Assets/more4.PNG" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="FAQ">
+        <div class="faq">
+          <h2>Frequently Asked Questions</h2>
+          <ul class="accordion">
+            <li>
+              <input type="checkbox" name="accordion" id="first">
+              <label for="first">What is Netflix?</label>
+              <div class="content">
+                <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. <br>
+                  <br> You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+                </p>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" name="accordion" id="second">
+              <label for="second">How much does Netflix cost?</label>
+              <div class="content">
+                <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" name="accordion" id="third">
+              <label for="third">Where can I watch?</label>
+              <div class="content">
+                <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. <br>
+                  <br> You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                </p>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" name="accordion" id="fourth">
+              <label for="fourth">How do I cancel?</label>
+              <div class="content">
+                <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" name="accordion" id="fifth">
+              <label for="fifth">What can I watch on Netflix?</label>
+              <div class="content">
+                <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" name="accordion" id="sixth">
+              <label for="sixth">Is Netflix good for Kids?</label>
+              <div class="content">
+                <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space. <br>
+                  <br> Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="lastSignUp">
+        <form action="#" class="email-signup">
+          <button type="submit">Get Started</button>
+        </form>
+        <div>
+          <small> Create or restart your membership.</small>
+        </div>
+      </section>
+      <section class="footerSection">
+        <footer>
+          <div class="footer">
+            <h2>Questions? Call <u>000-000-000-0000</u>
+            </h2>
+            <div class="row">
+              <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+              </div>
+              <div class="col">
+                <a href="#">Help Centre</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notices</a>
+              </div>
+              <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+              </div>
+              <div class="col">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+            <div class="translate">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" role="img" viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z" fill="currentColor"></path>
+              </svg>
+              <select id="language-select">
+                <option value="en">English</option>
+                <option value="hi">हिन्दी</option>
+              </select>
+            </div>
+            <p class="copyright-text">Netflix India</p>
+          </div>
+        </footer>
+      </section>
+  </body>
+</html>
